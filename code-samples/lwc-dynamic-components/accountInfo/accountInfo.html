@@ -1,0 +1,13 @@
+<template>
+    
+    <div class="slds-clearfix">
+        <div class="slds-float_right">
+            <lightning-button variant="brand" label={btnLabel} title="View details" onclick={handleViewDetails} class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </div>
+    <div class="slds-p-around_medium">
+        <lwc:component lwc:is={dynamicInstance} record-id={recordId}>
+        </lwc:component>
+    </div>
+
+</template>
