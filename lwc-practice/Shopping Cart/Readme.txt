@@ -1,0 +1,1 @@
+This is the sample code for the lwc tutorial https://www.decodeforce.com/courses/lwc/parent-child-components-lwc
