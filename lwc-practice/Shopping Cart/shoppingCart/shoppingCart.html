@@ -1,0 +1,20 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
+                            <span>Your cart</span>
+                        </a>
+                    </h2>
+                    <hr/>
+                    <c-shopping-cart-item cart-items={cartItems}></c-shopping-cart-item>
+                    <div class="slds-theme_shade">
+                        <p class="slds-align_absolute-center">Total : ${totalPrice}</p>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </article>
+</template>

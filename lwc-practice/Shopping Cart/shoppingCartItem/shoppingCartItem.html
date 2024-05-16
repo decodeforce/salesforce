@@ -1,0 +1,14 @@
+<template>
+    <template for:each={cartItems} for:item="item">            
+        <div class="slds-grid slds-gutters"  key={item.id}>
+            <div class="slds-col">
+                <span class="slds-p-around_xx-small">{item.quantity}</span>
+                <span class="slds-p-around_xx-small">x</span>
+                <span class="slds-p-around_xx-small">{item.name}</span>
+            </div>
+            <div class="slds-col">
+                <span>${item.price}</span>
+            </div>
+        </div>
+    </template>
+</template>
